@@ -5,13 +5,29 @@
       <h1 class="title">
         Home
       </h1>
+      <!-- con questo button attraverso la funzione goToUserId possiamo prendere andare a leggere e
+       settare il paramentro id creato in abouts-->
+      <div class="btn btn-danger" @click="goToUserId">User id: {{this.id}} </div>
 
     </div>
   </div>
 </template>
 
 <script>
-export default {}
+export default {
+  data() {
+    return {
+      id : 6,
+    }
+  },
+
+  methods: {
+
+    goToUserId() {
+      this.$router.push('/about/' + this.id)
+    }
+  }
+}
 </script>
 
 <style>
