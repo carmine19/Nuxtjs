@@ -12,7 +12,15 @@
 </template>
 
 <script>
-export default {}
+
+
+export default {
+  /* possiamo creare diversi layout per le nostre pagine che poi importiamo nei componenti o pagine di cui
+  ne abbiamo bisogno, in questo caso ho creato un componete di layouts about che ho importato in about.index,
+  per far leggere il componente bisogna richiamarlo in js con layout : 'nomecomponente' */
+      layout : 'about'
+
+}
 </script>
 
 <style>
