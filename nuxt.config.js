@@ -19,6 +19,8 @@ export default {
   },
 
   // Global CSS: https://go.nuxtjs.dev/config-css
+  //qui possiamo agganciare il nostro css custom andando a creare in assets il nostro file style.css
+  //poi qui passare il nome del file cosi: '~/assets/style.css'
   css: [
   ],
 
