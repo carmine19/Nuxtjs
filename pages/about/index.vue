@@ -1,9 +1,10 @@
 <template>
   <div class="container">
     <div>
+      <!-- importo il logo come componente dalla cartella components -->
       <Logo />
       <h1 class="title">
-        Home
+        about
       </h1>
 
     </div>

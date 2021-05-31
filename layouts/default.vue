@@ -1,5 +1,7 @@
 <template>
   <div>
+    <!-- qui importo globalmente i componeti che uso -->
+    <Nav />
     <Nuxt />
   </div>
 </template>
